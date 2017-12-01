@@ -1,4 +1,4 @@
-import {ACCOUNT} from "../constants/actionTypes";
+import {ACCOUNT} from '../constants/actionTypes';
 
 const initialState = {
     user: {},
@@ -7,12 +7,14 @@ const initialState = {
 
 export default function (state = initialState, action = {}) {
     switch (action.type) {
-        case ACCOUNT.LOGIN: {
-            return {
-                user: action.payload.user,
-                auth: action.payload.auth
+        case ACCOUNT.LOGIN:
+            {
+                return {
+                    user: action.payload.user,
+                    auth: action.payload.auth
+                };
             }
-        }
-        default: return state
+        default:
+            return state;
     }
 }

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import {renderRoutes} from "react-router-config";
+import React, {Component} from 'react';
+import {renderRoutes} from 'react-router-config';
 
 class App extends Component {
     constructor(props) {
@@ -11,4 +11,4 @@ class App extends Component {
     }
 }
 
-export default App
+export default App;

@@ -1,10 +1,10 @@
-import React, {Component} from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux"
-import {renderRoutes} from "react-router-config";
-import {BrowserRouter} from "react-router-dom";
-import routes from "./routes";
-import store from "./store/store";
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import {renderRoutes} from 'react-router-config';
+import {BrowserRouter} from 'react-router-dom';
+import routes from './routes';
+import store from './store/store';
 
 class Root extends Component {
     constructor(props) {

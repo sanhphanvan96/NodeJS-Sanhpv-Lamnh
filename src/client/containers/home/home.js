@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component} from 'react';
 
 class Home extends Component {
     constructor(props) {
@@ -10,7 +10,7 @@ class Home extends Component {
     componentDidMount(){}
 
     shouldComponentUpdate(nextProps, nextState) {
-        return true
+        return true;
     }
 
     componentWillReceiveProps(nextProps) {}
